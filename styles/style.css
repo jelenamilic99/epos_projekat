@@ -1,9 +1,26 @@
-gjbfhdh
+.Navigacija {
+  background-color: #8da1af;
+  overflow: hidden;
+  text-align: center;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+}
 
-dhasdsan
-
-djkhshdjkss
-
-afasafs
-
-ksdjhkshfkhdskhfksdhkd
+.Navigacija a {
+  color: beige;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+/* Prelaskom na odredjeni zeljeni meni- preko se pojavljuje boja*/
+.Navigacija a:hover {
+  background-color: #d2d1d3;
+}
+/*Kada se nalazimo na home npr- tamnija je boja*/
+.Navigacija a.active {
+  background-color: #607bae;
+}
