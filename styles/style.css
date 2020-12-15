@@ -24,3 +24,13 @@
 .Navigacija a.active {
   background-color: #607bae;
 }
+.Flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+img.Flex-container{
+  width: 1400px;
+  height: 1400px;
+}
+
