@@ -33,23 +33,5 @@
   flex-basis: 30%;
 
 }
-.Slide-container{
-  width: 5184p;
-  height: 2916px;
-}
-.Image-container{
-  width: 15000px;
-  height: 3000px;
-  position: relative;
-  transition: left 2s;
-  
-}
-.slider-img{
-  float: left;
-  margin: 0px;
-  padding: 0px;
 
-
-
-}
 
