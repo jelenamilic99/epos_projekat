@@ -1,5 +1,5 @@
 body{
-    background-image: url("../pictures/Borovnice.jpg");
+    background-image: url("../pictures/Voce/visnje.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body{
 
 .oNama{
     color: white;
-    font-family: cursive;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     text-align: center;
     display: flex;
     flex-direction: column;
