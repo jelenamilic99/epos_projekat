@@ -6,7 +6,7 @@
 }
 
 .Meni-link {
-  background-color: #8da1af;
+  background-color:#d34304;
   overflow: hidden;
   text-align: center;
   margin-top: -10px;
@@ -14,6 +14,7 @@
   margin-left: -10px;
   display: flex;
   justify-content: center;
+  height: 60px;
 }
 
 .Meni-link a {
@@ -30,7 +31,7 @@
 }
 /*Kada se nalazimo na home npr- tamnija je boja*/
 .Meni-link a.active {
-  background-color: #607bae;
+  background-color: #ee9209;
 }
 
 /*
@@ -63,12 +64,5 @@
 .Navigacija a.active {
   background-color: #607bae;
 }
-.Flex-parent{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.Flex-child{
-  flex-basis: 30%;
 
-}*/
+
