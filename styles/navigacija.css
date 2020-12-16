@@ -24,14 +24,5 @@
 .Navigacija a.active {
   background-color: #607bae;
 }
-.Flex-parent{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.Flex-child{
-  flex-basis: 30%;
-
-}
 
 

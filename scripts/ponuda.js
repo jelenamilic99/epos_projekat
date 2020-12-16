@@ -1,0 +1,1 @@
+var voce = document.get
