@@ -1,3 +1,40 @@
+.Header-navigacija {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.Meni-link {
+  background-color: #8da1af;
+  overflow: hidden;
+  text-align: center;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Meni-link a {
+  color: beige;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Prelaskom na odredjeni zeljeni meni- preko se pojavljuje boja*/
+.Meni-link a:hover {
+  background-color: #d2d1d3;
+}
+/*Kada se nalazimo na home npr- tamnija je boja*/
+.Meni-link a.active {
+  background-color: #607bae;
+}
+
+/*
+
 .Navigacija {
   background-color: #8da1af;
   overflow: hidden;
@@ -17,10 +54,12 @@
   font-size: 25px;
 }
 /* Prelaskom na odredjeni zeljeni meni- preko se pojavljuje boja*/
+/*
 .Navigacija a:hover {
   background-color: #d2d1d3;
 }
 /*Kada se nalazimo na home npr- tamnija je boja*/
+/*
 .Navigacija a.active {
   background-color: #607bae;
 }
@@ -32,6 +71,4 @@
 .Flex-child{
   flex-basis: 30%;
 
-}
-
-
+}*/
