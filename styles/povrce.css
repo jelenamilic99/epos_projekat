@@ -31,13 +31,29 @@ img{
 }
 
 .povrckica{
-    width: 30%;
+    flex: 30%;
+    max-width: 30%;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
 }
+
+@media (max-width: 800px) {
+    .povrckica {
+      flex: 40%;
+      max-width: 40%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .povrckica {
+      flex: 90%;
+      max-width: 90%;
+    }
+  }
 

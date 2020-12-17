@@ -22,22 +22,28 @@ img{
     border-radius: 10px;
 }
 
-.voce, .povrce{
-    width: 40%;
-    height: 85vh;
-    
+.kolona{
+    flex: 40%;
+    max-width: 40%;
 }
 
 .Ponuda{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
+    align-items: center;
 }
 
 img:hover{
     opacity: 0.7;
 }
+
+@media (max-width: 800px) {
+    .kolona {
+      flex: 90%;
+      max-width: 90%;
+    }
+  }
 
 
