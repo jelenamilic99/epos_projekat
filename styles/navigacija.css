@@ -1,3 +1,6 @@
+*{
+  font-family: Comic Sans MS, Comic Sans, cursive; 
+}
 .Header-navigacija {
   position: fixed;
   top: 0;

@@ -1,0 +1,11 @@
+.Naslov{
+    font-size: 30px;
+    order: 1;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 100px;
+}
