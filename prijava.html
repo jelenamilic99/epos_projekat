@@ -9,9 +9,8 @@
     <script src="scripts/meni.js"></script>
   </head>
 
-  <body style="background-color: #fdb469;">
-
- <div class="Header-navigacija">
+  <body style="background-color: #fdb469">
+    <div class="Header-navigacija">
       <div class="Meni">
         <div class="Meni-link">
           <a href="index.html">Početna</a>
@@ -23,12 +22,85 @@
     </div>
 
     <div class="Naslov">
-        <div class="Naslov" style="background-image: url(pictures/welcome.jpg)">
-          <h1><b>.</b></h1>
-        </div>
+      <div class="Naslov" style="background-image: url(pictures/welcome.jpg)">
+        <h1><b>.</b></h1>
       </div>
-        
-      
+    </div>
 
+    <div class="Prijava" style="background-color: rgba(0, 0, 0, 80%)">
+      <div class="NaslovForme">
+        <h1>
+          <b>Ukoliko želiš biti deo našeg tima, obavezno popuni formu!</b>
+        </h1>
+        <img src="pictures/TeamMember.png" style="size: 5%" width="100px" />
+      </div>
+      <form class="Forma-Form">
+        <br />
+
+        <div class="Form-Group">
+          <label for="Male" style="color: white"> Vaš pol:</label>
+          <br />
+          <input type="radio" id="male" name="gender" value="Muški" />
+          <label for="male" style="color: white">Muški</label>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="zenski"
+            checked
+          />
+          <label for="female" style="color: white">Ženski</label><br /><br />
+        </div>
+        <div class="Form-Group">
+          <label for="name" style="color: white"> Ime: </label> <br />
+          <input
+            type="Unos"
+            class="Form-control"
+            id="name"
+            placeholder="Vaše ime"
+            size="40%"
+            required="required"
+          />
+        </div>
+
+        <div class="Form-Group">
+          <label for="name" style="color: white"> Prezime: </label> <br />
+          <input
+            type="Unos"
+            class="Form-control"
+            id="name"
+            placeholder="Vaše prezime"
+            size="40%"
+            required="required"
+          />
+        </div>
+
+        <div class="Form-Group">
+          <label for="email" style="color: white"> E-mail: </label> <br />
+          <input
+            type="email"
+            class="Form-control"
+            id="email"
+            placeholder="Vaš e-mail"
+            size="40%"
+            required="required"
+          />
+        </div>
+
+        <div class="Form-Group">
+          <label for="number" style="color: white"> Broj telefona:</label><br />
+          <input
+            type="text"
+            class="Form-control"
+            id="number"
+            placeholder="Vaš broj telefona"
+            size="40%"
+            required="required"
+          />
+        </div>
+        <br />
+        <input id="submit" type="submit" value="Pošalji" size="100%" />
+      </form>
+    </div>
   </body>
-  </html>
+</html>

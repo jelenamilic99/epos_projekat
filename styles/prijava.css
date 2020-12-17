@@ -1,11 +1,43 @@
-.Naslov{
-    font-size: 30px;
-    order: 1;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: 100px;
+.Naslov {
+  font-size: 30px;
+  order: 1;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 70px;
+  height: 200px;
+}
+.NaslovForme {
+  color: white;
+  background-color: black;
+  height: 250px;
+  text-align: center;
+  margin-left: 50px;
+}
+.Forma-Form {
+  text-align: center;
+  width: 100%;
+}
+
+#submit {
+  font-size: 1.5vw;
+  padding: 0.4vw 1vw 0.4vw 1vw;
+}
+.Prijava {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.SlikaTeamMember {
+  width: 10px;
+  height: 10px;
+}
+.Forma-Form {
+  font-size: 1.8em;
 }
