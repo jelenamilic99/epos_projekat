@@ -17,7 +17,7 @@ h1{
     margin-bottom: 10%;
 }
 
-img{
+.Ponuda img{
     width: 100%;
     border-radius: 10px;
 }
@@ -35,7 +35,7 @@ img{
     align-items: center;
 }
 
-img:hover{
+.Ponuda img:hover{
     opacity: 0.7;
 }
 
@@ -82,7 +82,7 @@ img:hover{
 }
 .footer .footer-content .footer-section{
     flex:1;
-    padding: 25px;
+    padding: 0px;
     border: 1px solid white;
 
 }
