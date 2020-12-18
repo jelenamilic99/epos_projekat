@@ -30,7 +30,7 @@
 
 /* Prelaskom na odredjeni zeljeni meni- preko se pojavljuje boja*/
 .Meni-link a:hover {
-  background-color: #d2d1d3;
+  background-color: #fcac59;
 }
 /*Kada se nalazimo na home npr- tamnija je boja*/
 .Meni-link a.active {
