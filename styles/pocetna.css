@@ -37,7 +37,7 @@ body {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* pozicija next buttona je sa desne strane */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -72,9 +72,7 @@ body {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  /*-webkit-animation-duration: 1.5s;*/
   animation-name: fade;
-  /*animation-duration: 1.5s;*/
 }
 
 @-webkit-keyframes fade {
