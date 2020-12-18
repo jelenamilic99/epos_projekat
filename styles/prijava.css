@@ -33,6 +33,8 @@
   padding-bottom: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 .SlikaTeamMember {
   width: 10px;
@@ -41,3 +43,45 @@
 .Forma-Form {
   font-size: 1.8em;
 }
+html, body {
+    height: 100%;
+    
+}
+.page-wrapper{
+    min-height: 100%;
+}
+
+.footer {
+    background-color: #d34304 ;
+    color: white;
+    height: 400px;
+    position: relative;
+    width: 100%;
+
+}
+.footer .footer-content{
+    border:1px solid black ;
+    height: 350px;
+    display: flex;
+    text-align: center;
+}
+.footer .footer-bottom{
+    background-color: grey;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px ;
+
+
+}
+.footer .footer-content .footer-section{
+    flex:1;
+    padding: 25px;
+    border: 1px solid white;
+
+}
+
